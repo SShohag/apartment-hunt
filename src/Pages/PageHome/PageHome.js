@@ -22,35 +22,42 @@ const PageHome = () => {
             id:1,
             img:house1,
             heading:"Washington Avenue",
+            price:194,
             text:""
         },
         {
             id:2,
             img:house2,
             heading:"Family Apartment Three",
+            price:356,
             text:"" 
         },
         {
             id:3,
             img:house3,
-            heading:"" 
+            heading:"Gorgeous House",
+            price:256,
+            text:"" 
         },
         {
             id:4,
             img:house4,
             heading:"Luxury Villa",
+            price:345,
             text:"" 
         },
         {
             id:5,
             img:house5,
             heading:"Epic Huda Palacio",
+            price:536,
             text:""  
         },
         {
             id:6,
             img:house6,
             heading:"Washington Avenue",
+            price:283,
             text:"" 
         }
     ])
@@ -63,13 +70,13 @@ const PageHome = () => {
             "description":""
         },
         {
-            "id":1,
+            "id":2,
             "heading":"Financing Made Easy",
             "img":service2,
             "description":""
         },
         {
-            "id":1,
+            "id":3,
             "heading":"Trusted by Thousands",
             "img":service3,
             "description":""
@@ -96,7 +103,7 @@ const PageHome = () => {
                             <p><small><img className="w-25" src={bathLogo} alt=""/> 2 Bathroom</small></p>
                         </div>
                         <div className="houseDetails d-flex justify-content-between mt-5">
-                            <h2>$194</h2>
+                            <h2>$ {info.price} </h2>
                             <button className="btn btn-primary">
                                 show details
                             </button>
